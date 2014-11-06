@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.29)  29 OCT 2014 09:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.29)  6 NOV 2014 16:24
 entering extended mode
 **Beck_CV.tex
 (M:\docs\CV\Beck_CV.tex
@@ -416,13 +416,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
 {C:/Users/mbeck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
  [5] [6] [7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
 
 (M:\docs\CV\Beck_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `Beck_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -439,7 +439,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on Beck_CV.pdf (9 pages, 82679 bytes).
+Output written on Beck_CV.pdf (9 pages, 82329 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
