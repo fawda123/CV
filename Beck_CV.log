@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.29)  7 NOV 2016 18:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.29)  16 NOV 2016 10:35
 entering extended mode
 **Beck_CV.tex
 (M:\docs\CV\Beck_CV.tex
@@ -397,39 +397,39 @@ LaTeX Info: Redefining \nameref on input line 27.
 \@outlinefile=\write3
  [1
 
-{C:/Users/mbeck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/mbeck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 113.
+(Font)              <12> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 113.
+(Font)              <8> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 113.
- [2] [3] [4]
+(Font)              <6> on input line 116.
+ [3] [4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 185.
+(Font)              <14.4> on input line 188.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 185.
+(Font)              <7> on input line 188.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 185.
+(Font)              <5> on input line 188.
  [5] [6] [7] [8] [9]
 [10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  (M:\docs\CV\Beck_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `Beck_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7368 strings out of 493921
- 105484 string characters out of 3147282
- 212098 words of memory out of 3000000
+ 7369 strings out of 493921
+ 105491 string characters out of 3147282
+ 213098 words of memory out of 3000000
  10489 multiletter control sequences out of 15000+200000
  8896 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,12n,43p,1666b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,12n,43p,1670b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
@@ -437,9 +437,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
 /type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti12.pfb>
-Output written on Beck_CV.pdf (12 pages, 145210 bytes).
+Output written on Beck_CV.pdf (12 pages, 145729 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
