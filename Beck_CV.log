@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7420 64-bit) (preloaded format=pdflatex 2020.5.22)  2 JAN 2022 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7420 64-bit) (preloaded format=pdflatex 2020.5.22)  11 FEB 2022 15:28
 entering extended mode
 **./Beck_CV.tex
 (Beck_CV.tex
@@ -425,19 +425,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 149.
  [3] [4] [5] [6] [7]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 316.
+(Font)              <14.4> on input line 319.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 316.
+(Font)              <7> on input line 319.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 316.
+(Font)              <5> on input line 319.
  [8] [9] [10] [11]
 [12] [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 579.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 579.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
  (Beck_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 579.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 579.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
 Package rerunfilecheck Info: File `Beck_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -459,9 +459,9 @@ ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti12.pfb>
-Output written on Beck_CV.pdf (15 pages, 221340 bytes).
+Output written on Beck_CV.pdf (15 pages, 221739 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
+ 395 PDF objects out of 1000 (max. 8388607)
  173 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
