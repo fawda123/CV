@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  5 JAN 2024 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  16 JAN 2024 07:19
 entering extended mode
 **./Beck_CV.tex
 (Beck_CV.tex
@@ -413,25 +413,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 164.
- [3] [4]
-Missing character: There is no â in font cmti10!
-Missing character: There is no € in font cmti10!
-Missing character: There is no ™ in font cmti10!
- [5] [6] [7] [8] [9]
+ [3] [4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 382.
+(Font)              <14.4> on input line 384.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 382.
+(Font)              <7> on input line 384.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 382.
+(Font)              <5> on input line 384.
  [10] [11] [12]
 [13] [14] [15] [16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 693.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 695.
  [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 693.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 695.
  (Beck_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 693.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 693.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 695.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 695.
 Package rerunfilecheck Info: File `Beck_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -452,7 +448,7 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on Beck_CV.pdf (18 pages, 242220 bytes).
+Output written on Beck_CV.pdf (18 pages, 241129 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  213 named destinations out of 1000 (max. 500000)
