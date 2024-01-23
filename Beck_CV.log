@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  16 JAN 2024 07:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.28)  23 JAN 2024 11:12
 entering extended mode
 **./Beck_CV.tex
 (Beck_CV.tex
@@ -432,13 +432,13 @@ Package rerunfilecheck Info: File `Beck_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7761 strings out of 493312
- 110916 string characters out of 3138869
+ 7762 strings out of 493312
+ 110924 string characters out of 3138869
  227670 words of memory out of 3000000
  11018 multiletter control sequences out of 15000+200000
  9544 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,43p,3171b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,12n,43p,3235b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
@@ -448,9 +448,9 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on Beck_CV.pdf (18 pages, 241129 bytes).
+Output written on Beck_CV.pdf (18 pages, 241947 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
