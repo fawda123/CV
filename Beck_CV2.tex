@@ -1,133 +1,133 @@
-\documentclass[letterpaper,12pt]{article} 
-% \usepackage{times}
-\usepackage[top=0.5in,bottom=0.5in,left=0.5in,right=0.5in]{geometry}
-\usepackage{graphics}
-\usepackage{booktabs}
+\documentclass[letterpaper,11pt]{article}
+\usepackage[top=0.75in,bottom=0.75in,left=0.75in,right=0.75in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
-\usepackage{enumitem}
 \usepackage{url}
-\usepackage{datetime}
+\usepackage{array}
+\usepackage{tabularx}
 \usepackage[colorlinks=true,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
 
-\newcommand{\sectitle}[1]{\vspace{\baselineskip} \centerline{\large{\textit{#1}}}} 
-\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
 \urlstyle{same}
-
-\setlist{topsep=0pt,parsep=6pt,partopsep=0pt,leftmargin=*} % list characteristics
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{\baselineskip}%
+\setlength{\parskip}{0pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot[R]{\textcolor{gray}{Marcus W. Beck, CV page \thepage}}
-\fancyfoot[L]{\textcolor{gray}{\mydate\today}}
+\fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0pt}
-% \renewcommand{\rmdefault}{ptm}
+
+% Hanging-indent paragraph for publication entries
+\newcommand{\pub}[1]{%
+  \begingroup
+  \hangindent=1.5em
+  #1\par
+  \endgroup
+  \vspace{3pt}%
+}
 
 \begin{document}
 
-\raggedright
+\begin{center}
+  {\large\textbf{Marcus W. Beck, Ph.D.}}\\[3pt]
+  \textit{Senior Scientist}\\[2pt]
+  Tampa Bay Estuary Program\\
+  263 13th Ave South, St.\ Petersburg, Florida 33701\\
+  Email: \href{mailto:mbeck@tbep.org}{mbeck@tbep.org}\quad Tel: 727-893-2765 \quad
+  GitHub: \href{https://github.com/fawda123}{fawda123}
+\end{center}
 
-\Large
-\centerline{{\bf Marcus W. Beck, Ph.D.}}
-\normalsize
-\textit{Southern California Coastal Water Research Project \hfill Office: 714-755-3217 \\
-3535 Harbor Blvd., Suite 110 \hfill Cell: 352-871-6795 \\
-Costa Mesa, CA 92626 \hfill Email: \href{mailto:marcusb@sccwrp.org}{marcusb@sccwrp.org}
-}
 \vspace{4pt}
-\hrule
-\vspace{2pt}
-\hrule
+\noindent\textbf{(a) Education}
+
 \vspace{4pt}
-\small
+\begin{tabularx}{\linewidth}{@{}X p{3.8cm} p{1.3cm} r@{}}
+University of Minnesota, Twin Cities, MN     & Conservation Biology & Ph.D. & 2013 \\[1pt]
+University of Minnesota, Twin Cities, MN     & Conservation Biology & M.Sc. & 2009 \\[1pt]
+University of Florida, Gainesville, FL       & Zoology              & B.Sc. & 2006 \\[1pt]
+Santa Fe Community College, Gainesville, FL  & Zoology              & A.A.  & 2004 \\
+\end{tabularx}
 
-\sectitle{Education}
+\vspace{8pt}
+\noindent\textbf{(b) Professional Experiences}
 
-{\bf Ph.D., M.Sc., Conservation Biology, Fisheries and Aquatic Biology track} \hfill {\bf Jun. 2013} \\
-{\bf Statistics minor} \\
-Conservation Biology Graduate Program, University of Minnesota, Twin Cities, MN \\
-Thesis title: Minnesota macrophytes: Linking aquatic plants, lake health, and human activities \\
-Advisors: Drs. Bruce Vondracek, Lorin Hatch
+\vspace{4pt}
+\begin{tabularx}{\linewidth}{@{}X>{\itshape}p{5cm}r@{}}
+EnviroDev, LLC                                       & Private Contractor           & Apr. 2021 -- Present       \\[1pt]
+Tampa Bay Estuary Program                            & Senior Scientist             & Nov. 2019 -- Present       \\[1pt]
+Southern Calif.\ Coastal Water Research Project      & Scientist                    & Sep. 2017 -- Sep. 2019     \\[1pt]
+United States Environmental Protection Agency        & Post-Doctorate Researcher    & Dec. 2015 -- Sep. 2017     \\[1pt]
+ORISE, United States Environmental Protection Agency & Post-Doctorate Research Fellow & Jul. 2013 -- Nov. 2015   \\
+\end{tabularx}
 
-{\bf B.Sc., Zoology} \textit{summa cum laude} \hfill {\bf Dec. 2006} \\
-Department of Zoology, University of Florida, Gainesville, FL \\
-Thesis title: Reproductive characteristics of the green treefrog \textit{Hyla cinerea}: effects of agricultural contaminants. \\
-Advisor: Dr. Krista McCoy
+\vspace{8pt}
+\noindent\textbf{(c) Products}
 
-\sectitle{Professional Appointments}
+\vspace{4pt}
+\noindent(c1) Five Related Recent Publications
 
-{\bf Scientist} \hfill {\bf Sep. 2017 - Present}\\
-Biology Department, Southern California Coastal Water Research Project
+\vspace{4pt}
+\pub{Shi, J., Barnes, B., Muller-Karger, F., \textbf{Beck, M.W.}, Murawski, S., Liu, Y., Hu, C. \textbf{In review}. Water surface temperature trends in lakes and estuaries: Seasonal and decadal variations across Earth's hemispheres. \textit{Limnology and Oceanography}.}
 
-{\bf Post-Doctorate Researcher} \hfill {\bf July. 2013 - Sep. 2017}\\
-United States Environmental Protection Agency, Ecosystem Dynamics and Effects Branch, Gulf Ecology Division
+\pub{Shrestha, S., Mount, J., Vald, G., Sermet, Y., Samuel, D.J., Bryant, C., Peralta, A.C., \textbf{Beck, M.W.}, Meyers, S.D., Muller-Karger, F.E., Cwiertny, D., Demir, I. 2025. A community-centric intelligent cyberinfrastructure for addressing nitrogen pollution using web systems and conversational AI. \textit{Environmental Science \& Policy}. 167:104055. {\footnotesize\href{https://doi.org/10.1016/j.envsci.2025.104055}{10.1016/j.envsci.2025.104055}}}
 
-{\bf Research Fellow} \hfill {\bf Sep. 2012 - Jun. 2013} \\
-Water Resources Center, Conservation Biology Graduate Program, Department of Fisheries, Wildlife, and Conservation Biology, University of Minnesota
+\pub{\textbf{Beck, M.W.}, Altieri, A., Angelini, C., Burke, M.C., Chen, J., Chin, D.W., Gardiner, J., Hu, C., Hubbard, K.A., Liu, Y., Lopez, C., Medina, M., Morrison, E., Phlips, E.J., Raulerson, G.E., Scolaro, S., Sherwood, E.T., Tomasko, D., Weisberg, R., Whalen, J. 2022. Initial estuarine response to the nutrient-rich Piney Point release into Tampa Bay, Florida. \textit{Marine Pollution Bulletin}. 178:113598. {\footnotesize\href{https://doi.org/10.1016/j.marpolbul.2022.113598}{10.1016/j.marpolbul.2022.113598}}}
 
-{\bf Research Assistant}, University of Minnesota \hfill {\bf Sep. 2007 - Sep. 2012} \\
-Conservation Biology Graduate Program, Department of Fisheries, Wildlife, and Conservation Biology, University of Minnesota
+\pub{\textbf{Beck, M.W.}, de Valpine, P., Murphy, R., Wren, I., Chelsky, A., Foley, M., Senn, D.B. 2022. Multi-scale trend analysis of water quality using error propagation of generalized additive models. \textit{Science of the Total Environment}. 802:149927. {\footnotesize\href{https://doi.org/10.1016/j.scitotenv.2021.149927}{10.1016/j.scitotenv.2021.149927}}}
 
-\sectitle{Selected Publications}
-\small
-\begin{enumerate}
+\pub{\textbf{Beck, M.W.}, Sherwood, E.T., Henkel, J.R., Dorans, K., Ireland, K., Varela, P. 2019. Assessment of the cumulative effects of restoration activities on water quality in Tampa Bay, Florida. \textit{Estuaries and Coasts}. 42(7):1774--1791. {\footnotesize\href{https://doi.org/10.1007/s12237-019-00619-w}{10.1007/s12237-019-00619-w}}}
 
-\item \textbf{Beck, M.W.}, Jabusch, T.W., Trowbridge, P.R., Senn, D.B. 2018. Four decades of water quality change in the upper San Francisco Estuary. \textit{Estuarine, Coastal and Shelf Science}. 212:11-22. {\footnotesize{\href{https://doi.org/10.1016/j.ecss.2018.06.021}{10.1016/j.ecss.2018.06.021}}}
+\vspace{4pt}
+\noindent(c2) Other Recent Publications
 
-\item Murrell, M.C., Caffrey, J.M., Marcovich, D.T., \textbf{Beck, M.W.}, Jarvis, B.M., Hagy, J.D. 2018. Seasonal oxygen dynamics in a warm temperate estuary: Effects of hydrologic variability on measurements of primary production, respiration, and net metabolism. \textit{Estuaries and Coasts}. 41(3):690-707. {\footnotesize\href{https://link.springer.com/article/10.1007/s12237-017-0328-9}{10.1007/s12237-017-0328-9}}
+\vspace{4pt}
+\pub{Medina, M., \textbf{Beck, M.W.}, Hecker, J., Iadevaia, N., Moody, B., Anastasiou, C., Tomasko, D., Milbrandt, E.C., Kaplan, D., Angelini, C. 2025. Decoupled nutrient and chlorophyll trends in a large subtropical estuary: Water quality trends at the Greater Charlotte Harbor estuaries in southwest Florida. \textit{Estuaries and Coasts}. 48:56. {\footnotesize\href{https://doi.org/10.1007/s12237-025-01488-2}{10.1007/s12237-025-01488-2}}}
 
-\item \textbf{Beck, M.W.}, Cressman, K., Griffin, C., Caffrey, J. 2018. Water quality trends following anomalous phosphorus inputs to Grand Bay, Mississippi, USA. \textit{Gulf and Caribbean Research}. 29(1):1-14. {\footnotesize\href{https://aquila.usm.edu/gcr/vol29/iss1/2/}{gcr.2901.02}}
+\pub{\textbf{Beck, M.W.}, Flaherty-Walia, K.E., Scolaro, S., Burke, M.C., Furman, B.T., Karlen, D.J., Pratt, C., Anastasiou, C.J., Sherwood, E.T. 2024. Hot and fresh: Evidence of climate-related suboptimal water conditions for seagrass in a large Gulf coast estuary. \textit{Estuaries and Coasts}. 47:1475--1497. {\footnotesize\href{https://doi.org/10.1007/s12237-024-01385-0}{10.1007/s12237-024-01385-0}}}
 
-\item \textbf{Beck, M.W.}, Hagy, J.D., Le, C. 2018. Quantifying seagrass light requirements using an algorithm to spatially resolve depth of colonization. \textit{Estuaries and Coasts}. 41(2):592-610. {\footnotesize\href{http://dx.doi.org/10.1007/s12237-017-0287-1}{10.1007/s12237-017-0287-1}}
+\pub{Wessel, M.R., Leverone, J.R., \textbf{Beck, M.W.}, Sherwood, E.T., Hecker, J., West, S., Janicki, A. 2022. A nutrient-based framework for tidal creeks in Southwest Florida. \textit{Estuaries and Coasts}. 45:17--37. {\footnotesize\href{https://doi.org/10.1007/s12237-021-00974-7}{10.1007/s12237-021-00974-7}}}
 
-\item Sutula, M., Kudela, R., Hagy, J.D., Harding, L.W., Senn, D., Cloern, J.E., Bricker, S., Berg, G.M., \textbf{Beck, M.W.} 2017. Novel analyses of long-term data provide a scientific basis for chlorophyll-a thresholds in San Francisco Bay. \textit{Estuarine, Coastal and Shelf Science}. 197:107-118. {\footnotesize\href{https://doi.org/10.1016/j.ecss.2017.07.009}{10.1016/j.ecss.2017.07.009}}
+\vspace{4pt}
+\noindent(c3) Other Significant Publications
 
-\item \textbf{Beck, M.W.}, Murphy, R. 2017. Numerical and qualitative contrasts of two statistical models for water quality change in tidal waters. \textit{Journal of the American Water Resources Association}. 53(1):197-219. {\footnotesize\href{http://dx.doi.org/10.1111/1752-1688.12489}{10.1111/1752-1688.12489}}
+\vspace{4pt}
+\pub{\textbf{Beck, M.W.}, Schrandt, M.N., Wessel, M.R., Sherwood, E.T., Raulerson, G.E., Prasad, A.A.B., Best, B.D. 2021. tbeptools: An R package for synthesizing estuarine data for environmental research. \textit{Journal of Open Source Software}. 6(65):3485. {\footnotesize\href{https://doi.org/10.21105/joss.03485}{10.21105/joss.03485}}}
 
-\item \textbf{Beck, M.W.} 2016. SWMPr: An R package for retrieving, organizing, and analyzing environmental data for estuaries. \textit{The R Journal}. 8(1):219-232.
+\pub{\textbf{Beck, M.W.}, Murphy, R. 2017. Numerical and qualitative contrasts of two statistical models for water quality change in tidal waters. \textit{Journal of the American Water Resources Association}. 53(1):197--219. {\footnotesize\href{http://dx.doi.org/10.1111/1752-1688.12489}{10.1111/1752-1688.12489}}}
 
-\item \textbf{Beck, M.W.}, Hagy, J.D., Murrell, M.C. 2015. Improving estimates of ecosystem metabolism by reducing effects of tidal advection on dissolved oxygen time series. \textit{Limnology \& Oceanography: Methods}. 13(12):731-745. {\footnotesize\href{http://dx.doi.org/10.1002/lom3.10062}{10.1002/lom3.10062}}
+\pub{\textbf{Beck, M.W.}, Hagy, J.D. 2015. Adaptation of a weighted regression approach to evaluate water quality trends in an estuary. \textit{Environmental Modeling and Assessment}. 20(6):637--655. {\footnotesize\href{http://dx.doi.org/10.1007/s10666-015-9452-8}{10.1007/s10666-015-9452-8}}}
 
-\item \textbf{Beck, M.W.}, Hagy, J.D. 2015. Adaptation of a weighted regression approach to evaluate water quality trends in an estuary. \textit{Environmental Modeling and Assessment}. 20(6):637-655. {\footnotesize\href{http://dx.doi.org/10.1007/s10666-015-9452-8}{10.1007/s10666-015-9452-8}}
+\vspace{8pt}
+\noindent\textbf{(d) Synergistic Activities:}
 
-\end{enumerate}
+\vspace{4pt}
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+Scientific Program Committee Co-Chair, 2025 Coastal and Estuarine Research Federation biennial meeting & 2024 -- Present \\[2pt]
+Doctoral Dissertation Committee, J.\ Shi, College of Marine Science, University of South Florida       & 2024 -- 2025    \\[2pt]
+Masters Thesis Committee, C.\ Bryant, College of Marine Science, University of South Florida           & 2024 -- 2025    \\[2pt]
+Editorial Board, \textit{Coastal and Estuarine Science News}                                           & 2022 -- Present \\[2pt]
+USEPA ORD Level III Science and Technological Achievement Award                                        & 2022            \\
+\end{tabularx}
+Grant Reviewer: \textit{NOAA RESTORE FFO-2025} (Jan. 2025) $\bullet$ \textit{Florida Sea Grant Graduate Fellowship} (Jun. 2024) $\bullet$ \textit{Florida FWC HAB Grants Program} (Jul. 2022)
 
-\vspace{\baselineskip} 
-\centerline{\large{\textit{Selected Software and Websites}}}
+\vspace{8pt}
+\noindent\textbf{(e) Software}
 
-\begin{enumerate}
+\vspace{4pt}
+\pub{\textbf{Beck, M.W.}, Carr, J., Wetherill, B. 2026. MassWateR: Tools for QAQC and Exploratory Analysis of Massachusetts Surface Water Quality Data, v2.2.1. CRAN R package. (\href{https://massbays-tech.github.io/MassWateR/}{link})}
 
-\item \textbf{Beck, M.W.} 2018. WRTDStidal: Weighted regression for water quality evaluation in tidal waters, v1.1.1. CRAN R package. (\href{https://cran.r-project.org/web/packages/WRTDStidal/index.html}{link})
+\pub{\textbf{Beck, M.W.} 2026. WRTDStidal: Weighted regression for water quality evaluation in tidal waters, v1.1.5. CRAN R package. (\href{https://cran.r-project.org/web/packages/WRTDStidal/index.html}{link})}
 
-\item Payton, Q., Olsen, T., Weber, M., McManus, M., Kincaid, T., \textbf{Beck, M.W.} 2018. micromap: Linked micromap plots, v1.9.3. CRAN R package. (\href{https://cran.r-project.org/web/packages/micromap/index.html}{link})
+\pub{\textbf{Beck, M.W.}, de Valpine, P., Murphy, R., Wren, I., Chelsky, A., Foley, M., Senn, D.B. 2026. wqtrends: Assess Water Quality Trends with Generalized Additive Models, v1.5.2. CRAN R package. (\href{https://tbep-tech.github.io/wqtrends/}{link})}
 
-\item \textbf{Beck, M.W.} 2018. NeuralNetTools: Visualization and Analysis Tools for Neural Networks, v1.5.1. CRAN R package. (\href{http://cran.r-project.org/web/packages/NeuralNetTools/}{link})
+\pub{\textbf{Beck, M.W.}, Schrandt, M., Wessel, M., Sherwood, E., Raulerson, G., Prasad, A.A.B., Best, B., Cressman, K. 2025. tbeptools: Data and Indicators for the Tampa Bay Estuary Program, v3.1.0. R package. (\href{https://tbep-tech.github.io/tbeptools/}{link})}
 
-\item \textbf{Beck, M.W.} 2018. SWMPr: An R package for the National Estuarine Research Reserve System, v2.3.0. CRAN R package. (\href{https://cran.r-project.org/web/packages/SWMPr/index.html}{link})
+\pub{\textbf{Beck, M.W.} 2025. SWMPr: An R package for the National Estuarine Research Reserve System, v2.5.2. CRAN R package. (\href{http://fawda123.github.io/SWMPr}{link})}
 
-\item \textbf{Beck, M.W.} 2016. Aggregation of SWMP parameters within/between reserves. Shiny Web Application. (\href{http://beckmw.shinyapps.io/swmp_agg}{link})
+\pub{\textbf{Beck, M.W.}, Hermann, M., Arriola, J., Najjar, R. 2024. EBASE: Estuarine Bayesian Single-Station Estimation Method for Ecosystem Metabolism, v1.1.0. CRAN R package. (\href{https://fawda123.github.io/EBASE/}{link})}
 
-\item O'Brien, T.D., \textbf{Beck, M.W.} 2015. Time series and data analysis information and tool resource for NERRS/SWMP. Website. (\href{http://swmprats.net/}{link})
+\pub{\textbf{Beck, M.W.} 2024. WtRegDO: Supplementary package for improving estimates of ecosystem metabolism by reducing the effects of tidal advection on dissolved oxygen time series, v1.0.2. R package. (\href{http://github.com/fawda123/WtRegDO}{link})}
 
-\item \textbf{Beck, M.W.} 2015. Trends in SWMP parameters. Shiny Web Application. (\href{http://beckmw.shinyapps.io/swmp_comp/}{link})
+\pub{\textbf{Beck, M.W.} 2024. CTDplot: Plot CTD water quality data along an estuarine axis, v1.0.1. R package. (\href{https://github.com/fawda123/CTDplot}{link})}
 
-\item \textbf{Beck, M.W.} 2015. Monthly and annual summary of SWMP parameters. Shiny Web Application. (\href{http://beckmw.shinyapps.io/swmp_summary/}{link})
-
-\end{enumerate}
-
-\sectitle{Teaching Experience}
-
-{\bf Workshop Co-Instructor} \hfill {\bf May 2018}\\
-Fundamentals of spatial data access and analysis in R, Annual meeting of the Society of Freshwater Science (\href{https://ryan-hill.github.io/sfs-r-gis-2018/}{link})
-
-{\bf Workshop Co-Instructor} \hfill {\bf Nov. 2017}\\
-Introduction to R for analysis of coastal and estuarine data, Biennial meeting of the Coastal and Estuarine Research Federation (\href{https://usepa.github.io/cerf_r/}{link})
-
-{\bf Workshop Co-Instructor} \hfill {\bf Nov. 2016}\\
-R, SWMPr, SWMPrats for non-beginners, System Wide Monitoring Program, National Estuarine Research Reserve System, NOAA. (\href{http://swmprats.net/2016-workshop}{link})
-
-{\bf Workshop Co-Instructor} \hfill {\bf Oct. 2015}\\
-An Introduction to SWMPr, System Wide Monitoring Program, National Estuarine Research Reserve System, NOAA. (\href{http://swmprats.net/workshop-2015}{link})
+\pub{\textbf{Beck, M.W.} 2018. NeuralNetTools: Visualization and Analysis Tools for Neural Networks, v1.5.1. CRAN R package. (\href{http://cran.r-project.org/web/packages/NeuralNetTools/}{link})}
 
 \end{document}

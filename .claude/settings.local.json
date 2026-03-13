@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdflatex -interaction=nonstopmode Beck_CV2.tex 2>&1 | grep -E \"\\(Error|Overfull|pages written|Output\\)\")"
+    ]
+  }
+}
