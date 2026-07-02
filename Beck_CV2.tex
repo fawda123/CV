@@ -1,10 +1,11 @@
-\documentclass[letterpaper,11pt]{article}
-\usepackage[top=0.75in,bottom=0.75in,left=0.75in,right=0.75in]{geometry}
+\documentclass[letterpaper,12pt]{article}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{array}
 \usepackage{tabularx}
+\usepackage{enumitem}
 \usepackage[colorlinks=true,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
 
 \urlstyle{same}
@@ -14,6 +15,8 @@
 \fancyhf{}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0pt}
+
+\setlist[itemize]{topsep=2pt,itemsep=3pt,parsep=0pt,leftmargin=1.4em}
 
 % Hanging-indent paragraph for publication entries
 \newcommand{\pub}[1]{%
@@ -36,10 +39,10 @@
 \end{center}
 
 \vspace{4pt}
-\noindent\textbf{(a) Education}
+\noindent\textbf{Education}
 
 \vspace{4pt}
-\begin{tabularx}{\linewidth}{@{}X p{3.8cm} p{1.3cm} r@{}}
+\begin{tabularx}{\linewidth}{@{}X p{4.6cm} p{1.4cm} r@{}}
 University of Minnesota, Twin Cities, MN     & Conservation Biology & Ph.D. & 2013 \\[1pt]
 University of Minnesota, Twin Cities, MN     & Conservation Biology & M.Sc. & 2009 \\[1pt]
 University of Florida, Gainesville, FL       & Zoology              & B.Sc. & 2006 \\[1pt]
@@ -47,87 +50,82 @@ Santa Fe Community College, Gainesville, FL  & Zoology              & A.A.  & 20
 \end{tabularx}
 
 \vspace{8pt}
-\noindent\textbf{(b) Professional Experiences}
+\noindent\textbf{Relevant Professional Appointments}
+
+\vspace{2pt}
+\textbf{Senior Scientist} \hfill \textbf{Nov. 2019 -- Present}\\
+Tampa Bay Estuary Program
 
 \vspace{4pt}
-\begin{tabularx}{\linewidth}{@{}X>{\itshape}p{5cm}r@{}}
-EnviroDev, LLC                                       & Private Contractor           & Apr. 2021 -- Present       \\[1pt]
-Tampa Bay Estuary Program                            & Senior Scientist             & Nov. 2019 -- Present       \\[1pt]
-Southern Calif.\ Coastal Water Research Project      & Scientist                    & Sep. 2017 -- Sep. 2019     \\[1pt]
-United States Environmental Protection Agency        & Post-Doctorate Researcher    & Dec. 2015 -- Sep. 2017     \\[1pt]
-ORISE, United States Environmental Protection Agency & Post-Doctorate Research Fellow & Jul. 2013 -- Nov. 2015   \\
-\end{tabularx}
+\textbf{Private Contractor} \hfill \textbf{Apr. 2021 -- Present}\\
+EnviroDev, LLC
+
+\vspace{2pt}
+\textbf{Scientist} \hfill \textbf{Sep. 2017 -- Sep. 2019}\\
+Southern California Coastal Water Research Project
+
+\vspace{2pt}
+\textbf{Post-Doctorate Researcher} \hfill \textbf{Dec. 2015 -- Sep. 2017}\\
+United States Environmental Protection Agency
+
+\vspace{2pt}
+\textbf{Post-Doctorate Research Fellow} \hfill \textbf{Jul. 2013 -- Nov. 2015}\\
+ORISE, United States Environmental Protection Agency
 
 \vspace{8pt}
-\noindent\textbf{(c) Products}
+\noindent\textbf{Research and Technical Experience Relevant to this Project}
 
 \vspace{4pt}
-\noindent(c1) Five Related Recent Publications
+\begin{itemize}
+\item Fifteen years of experience integrating long-term field monitoring, in-situ sensor, and remote-sensing data into operational water quality and seagrass management products for Tampa Bay and other U.S.\ estuaries.
+\item Direct collaborator with Dr.\ Frank Muller-Karger (USF College of Marine Science, Scientific PI on this proposal) on cloud-based satellite remote sensing methods for seagrass monitoring (Lizcano-Sandoval et al.\ 2025), developing a working relationship and familiarity with USF CMS seagrass mapping and classification approaches.
+\item Completed hands-on training in marine biodiversity data standards (OBIS, Darwin Core) and data handling at the USF/MBON BioData Mobilization Workshop (Jun.\ 2026), taught in part by Dr.\ Ana Carolina Peraltova, Co-Investigator on this proposal.
+\item Led synthesis of Tampa Bay water quality and seagrass monitoring data to define seagrass light requirements and depth of colonization (Beck et al.\ 2018) and to identify climate-related water quality conditions suboptimal for seagrass recovery (Beck et al.\ 2024), directly informing the ecological context for validating acoustic seagrass monitoring.
+\item Principal developer of tbeptools, an open-source R package supporting dashboard and reporting products used operationally by Tampa Bay Estuary Program and its partners to ingest, QA/QC, analyze, and publicly disseminate estuarine monitoring data (Beck et al.\ 2021).
+\item Author of the Tampa Bay Estuary Program's Data Management Standard Operating Procedures (Beck et al.\ 2021), defining intake, quality control, archiving, and public release of estuarine monitoring data, directly transferable to this project's Data Management Plan and IOOS/SECOORA data-sharing requirements.
+\item Supported the multi-agency Piney Point wastewater discharge monitoring response (2021), synthesizing water quality, seagrass, and macroalgae data across more than ten partner agencies and delivering reporting products to inform real-time response (Beck et al.\ 2022, 2023).
+\item Applies statistical trend models (wqtrends, WRTDStidal) to convert raw monitoring data into actionable indicators of ecosystem condition for restoration managers, directly analogous to the proposed acoustic Resilience Score framework.
+\item Extensive experience training technical staff at resource management agencies (NOAA NERRS SWMP, FDEP, TBEP, MassBays, SCCWRP) in the use of new monitoring data tools and dashboards, delivering more than fifteen workshops that build the operational capacity required for working with data.
+\end{itemize}
 
 \vspace{4pt}
-\pub{Shi, J., Barnes, B., Muller-Karger, F., \textbf{Beck, M.W.}, Murawski, S., Liu, Y., Hu, C. \textbf{In review}. Water surface temperature trends in lakes and estuaries: Seasonal and decadal variations across Earth's hemispheres. \textit{Limnology and Oceanography}.}
-
-\pub{Shrestha, S., Mount, J., Vald, G., Sermet, Y., Samuel, D.J., Bryant, C., Peralta, A.C., \textbf{Beck, M.W.}, Meyers, S.D., Muller-Karger, F.E., Cwiertny, D., Demir, I. 2025. A community-centric intelligent cyberinfrastructure for addressing nitrogen pollution using web systems and conversational AI. \textit{Environmental Science \& Policy}. 167:104055. {\footnotesize\href{https://doi.org/10.1016/j.envsci.2025.104055}{10.1016/j.envsci.2025.104055}}}
-
-\pub{\textbf{Beck, M.W.}, Altieri, A., Angelini, C., Burke, M.C., Chen, J., Chin, D.W., Gardiner, J., Hu, C., Hubbard, K.A., Liu, Y., Lopez, C., Medina, M., Morrison, E., Phlips, E.J., Raulerson, G.E., Scolaro, S., Sherwood, E.T., Tomasko, D., Weisberg, R., Whalen, J. 2022. Initial estuarine response to the nutrient-rich Piney Point release into Tampa Bay, Florida. \textit{Marine Pollution Bulletin}. 178:113598. {\footnotesize\href{https://doi.org/10.1016/j.marpolbul.2022.113598}{10.1016/j.marpolbul.2022.113598}}}
-
-\pub{\textbf{Beck, M.W.}, de Valpine, P., Murphy, R., Wren, I., Chelsky, A., Foley, M., Senn, D.B. 2022. Multi-scale trend analysis of water quality using error propagation of generalized additive models. \textit{Science of the Total Environment}. 802:149927. {\footnotesize\href{https://doi.org/10.1016/j.scitotenv.2021.149927}{10.1016/j.scitotenv.2021.149927}}}
-
-\pub{\textbf{Beck, M.W.}, Sherwood, E.T., Henkel, J.R., Dorans, K., Ireland, K., Varela, P. 2019. Assessment of the cumulative effects of restoration activities on water quality in Tampa Bay, Florida. \textit{Estuaries and Coasts}. 42(7):1774--1791. {\footnotesize\href{https://doi.org/10.1007/s12237-019-00619-w}{10.1007/s12237-019-00619-w}}}
+\noindent\textbf{Selected Publications (most relevant to this project)}
 
 \vspace{4pt}
-\noindent(c2) Other Recent Publications
-
-\vspace{4pt}
-\pub{Medina, M., \textbf{Beck, M.W.}, Hecker, J., Iadevaia, N., Moody, B., Anastasiou, C., Tomasko, D., Milbrandt, E.C., Kaplan, D., Angelini, C. 2025. Decoupled nutrient and chlorophyll trends in a large subtropical estuary: Water quality trends at the Greater Charlotte Harbor estuaries in southwest Florida. \textit{Estuaries and Coasts}. 48:56. {\footnotesize\href{https://doi.org/10.1007/s12237-025-01488-2}{10.1007/s12237-025-01488-2}}}
+\pub{Lizcano-Sandoval, L., \textbf{Beck, M.W.}, Scolaro, S., Sherwood, E.T., Muller-Karger, F.E. 2025. Cloud-based satellite remote sensing for enhancing seagrass monitoring and ecosystem management. \textit{ISPRS Journal of Photogrammetry and Remote Sensing}. 227:508--518. {\footnotesize\href{https://doi.org/10.1016/j.isprsjprs.2025.06.034}{10.1016/j.isprsjprs.2025.06.034}}}
 
 \pub{\textbf{Beck, M.W.}, Flaherty-Walia, K.E., Scolaro, S., Burke, M.C., Furman, B.T., Karlen, D.J., Pratt, C., Anastasiou, C.J., Sherwood, E.T. 2024. Hot and fresh: Evidence of climate-related suboptimal water conditions for seagrass in a large Gulf coast estuary. \textit{Estuaries and Coasts}. 47:1475--1497. {\footnotesize\href{https://doi.org/10.1007/s12237-024-01385-0}{10.1007/s12237-024-01385-0}}}
 
-\pub{Wessel, M.R., Leverone, J.R., \textbf{Beck, M.W.}, Sherwood, E.T., Hecker, J., West, S., Janicki, A. 2022. A nutrient-based framework for tidal creeks in Southwest Florida. \textit{Estuaries and Coasts}. 45:17--37. {\footnotesize\href{https://doi.org/10.1007/s12237-021-00974-7}{10.1007/s12237-021-00974-7}}}
+\pub{\textbf{Beck, M.W.}, Hagy, J.D., Le, C. 2018. Quantifying seagrass light requirements using an algorithm to spatially resolve depth of colonization. \textit{Estuaries and Coasts}. 41(2):592--610. {\footnotesize\href{http://dx.doi.org/10.1007/s12237-017-0287-1}{10.1007/s12237-017-0287-1}}}
 
-\vspace{4pt}
-\noindent(c3) Other Significant Publications
-
-\vspace{4pt}
 \pub{\textbf{Beck, M.W.}, Schrandt, M.N., Wessel, M.R., Sherwood, E.T., Raulerson, G.E., Prasad, A.A.B., Best, B.D. 2021. tbeptools: An R package for synthesizing estuarine data for environmental research. \textit{Journal of Open Source Software}. 6(65):3485. {\footnotesize\href{https://doi.org/10.21105/joss.03485}{10.21105/joss.03485}}}
 
-\pub{\textbf{Beck, M.W.}, Murphy, R. 2017. Numerical and qualitative contrasts of two statistical models for water quality change in tidal waters. \textit{Journal of the American Water Resources Association}. 53(1):197--219. {\footnotesize\href{http://dx.doi.org/10.1111/1752-1688.12489}{10.1111/1752-1688.12489}}}
+\pub{\textbf{Beck, M.W.}, Wetherill, B., Carr, J. 2023. MassWateR: Improving quality control, analysis, and sharing of water quality data. \textit{PLOS ONE}. 18(11):e0293737. {\footnotesize\href{https://doi.org/10.1371/journal.pone.0293737}{10.1371/journal.pone.0293737}}}
 
-\pub{\textbf{Beck, M.W.}, Hagy, J.D. 2015. Adaptation of a weighted regression approach to evaluate water quality trends in an estuary. \textit{Environmental Modeling and Assessment}. 20(6):637--655. {\footnotesize\href{http://dx.doi.org/10.1007/s10666-015-9452-8}{10.1007/s10666-015-9452-8}}}
+\pub{\textbf{Beck, M.W.}, Burke, M.C., Raulerson, G.E., Scolaro, S., Sherwood, E.T., Whalen, J. 2023. Coordinated monitoring of the Piney Point wastewater discharge into Tampa Bay: Data synthesis and reporting. \textit{Florida Scientist}. 86(2):288--300.}
 
-\vspace{8pt}
-\noindent\textbf{(d) Synergistic Activities:}
-
-\vspace{4pt}
-\begin{tabularx}{\linewidth}{@{}Xr@{}}
-Scientific Program Committee Co-Chair, 2025 Coastal and Estuarine Research Federation biennial meeting & 2024 -- Present \\[2pt]
-Doctoral Dissertation Committee, J.\ Shi, College of Marine Science, University of South Florida       & 2024 -- 2025    \\[2pt]
-Masters Thesis Committee, C.\ Bryant, College of Marine Science, University of South Florida           & 2024 -- 2025    \\[2pt]
-Editorial Board, \textit{Coastal and Estuarine Science News}                                           & 2022 -- Present \\[2pt]
-USEPA ORD Level III Science and Technological Achievement Award                                        & 2022            \\
-\end{tabularx}
-Grant Reviewer: \textit{NOAA RESTORE FFO-2025} (Jan. 2025) $\bullet$ \textit{Florida Sea Grant Graduate Fellowship} (Jun. 2024) $\bullet$ \textit{Florida FWC HAB Grants Program} (Jul. 2022)
-
-\vspace{8pt}
-\noindent\textbf{(e) Software}
+\pub{\textbf{Beck, M.W.}, de Valpine, P., Murphy, R., Wren, I., Chelsky, A., Foley, M., Senn, D.B. 2022. Multi-scale trend analysis of water quality using error propagation of generalized additive models. \textit{Science of the Total Environment}. 802:149927. {\footnotesize\href{https://doi.org/10.1016/j.scitotenv.2021.149927}{10.1016/j.scitotenv.2021.149927}}}
 
 \vspace{4pt}
-\pub{\textbf{Beck, M.W.}, Carr, J., Wetherill, B. 2026. MassWateR: Tools for QAQC and Exploratory Analysis of Massachusetts Surface Water Quality Data, v2.2.1. CRAN R package. (\href{https://massbays-tech.github.io/MassWateR/}{link})}
+\noindent\textbf{Relevant Awards, Certifications, and Professional Memberships}
 
-\pub{\textbf{Beck, M.W.} 2026. WRTDStidal: Weighted regression for water quality evaluation in tidal waters, v1.1.5. CRAN R package. (\href{https://cran.r-project.org/web/packages/WRTDStidal/index.html}{link})}
+\vspace{4pt}
+\begin{itemize}
+\item USEPA Office of Research and Development, Level III Science and Technological Achievement Award, 2022.
+\item Coastal and Estuarine Research Federation: Scientific Program Committee Co-Chair, 2025 biennial meeting; Member since 2013.
+\item Grant Reviewer: NOAA RESTORE FFO-2025; Florida Sea Grant Graduate Fellowship Competition; Florida FWC Harmful Algal Bloom Grants Program; Florida RESTORE Act Centers of Excellence Program; Maryland Sea Grant; University of Southern California Sea Grant.
+\end{itemize}
 
-\pub{\textbf{Beck, M.W.}, de Valpine, P., Murphy, R., Wren, I., Chelsky, A., Foley, M., Senn, D.B. 2026. wqtrends: Assess Water Quality Trends with Generalized Additive Models, v1.5.2. CRAN R package. (\href{https://tbep-tech.github.io/wqtrends/}{link})}
+\vspace{4pt}
+\noindent\textbf{Experience Managing Similar Projects}
 
-\pub{\textbf{Beck, M.W.}, Schrandt, M., Wessel, M., Sherwood, E., Raulerson, G., Prasad, A.A.B., Best, B., Cressman, K. 2025. tbeptools: Data and Indicators for the Tampa Bay Estuary Program, v3.1.0. R package. (\href{https://tbep-tech.github.io/tbeptools/}{link})}
-
-\pub{\textbf{Beck, M.W.} 2025. SWMPr: An R package for the National Estuarine Research Reserve System, v2.5.2. CRAN R package. (\href{http://fawda123.github.io/SWMPr}{link})}
-
-\pub{\textbf{Beck, M.W.}, Hermann, M., Arriola, J., Najjar, R. 2024. EBASE: Estuarine Bayesian Single-Station Estimation Method for Ecosystem Metabolism, v1.1.0. CRAN R package. (\href{https://fawda123.github.io/EBASE/}{link})}
-
-\pub{\textbf{Beck, M.W.} 2024. WtRegDO: Supplementary package for improving estimates of ecosystem metabolism by reducing the effects of tidal advection on dissolved oxygen time series, v1.0.2. R package. (\href{http://github.com/fawda123/WtRegDO}{link})}
-
-\pub{\textbf{Beck, M.W.} 2024. CTDplot: Plot CTD water quality data along an estuarine axis, v1.0.1. R package. (\href{https://github.com/fawda123/CTDplot}{link})}
-
-\pub{\textbf{Beck, M.W.} 2018. NeuralNetTools: Visualization and Analysis Tools for Neural Networks, v1.5.1. CRAN R package. (\href{http://cran.r-project.org/web/packages/NeuralNetTools/}{link})}
+\vspace{4pt}
+\begin{itemize}
+\item As Senior Scientist for Tampa Bay Estuary Program, coordinates the synthesis of data to report on the Bay's long-term water quality and seagrass monitoring across partner agencies, translating monitoring data into the annual Bay Health report card and management actions reviewed by TBEP's Boards and Technical Advisory Committee.
+\item Supported the multi-agency Piney Point monitoring response (2021): coordinated data aggregation, QA/QC, and synthesis across more than ten partner agencies and delivered public data products to support real-time management decisions (Beck et al.\ 2022 \textit{Marine Pollution Bulletin}; Beck et al.\ 2023 \textit{Florida Scientist}).
+\item Co-Principal investigator and developer for MassWateR, a data management and QA/QC software product developed under contract with the Massachusetts Bays National Estuary Program; supported in-person and remote trainings to volunteer and professional monitoring programs across Massachusetts.
+\item Co-Chair, Scientific Program Committee for the 2025 Coastal and Estuarine Research Federation biennial meeting, coordinating conference science themes and abstract review across a multi-institution program committee.
+\item Managed independent software and data-analysis contracts (as EnviroDev, LLC) for multiple federal, state, and non-profit partners, including the San Francisco Estuary Institute, Penn State University, the Southern California Coastal Water Research Project, and the Choctawhatchee Basin Alliance, each with defined deliverables, budgets, and timelines.
+\end{itemize}
 
 \end{document}
